@@ -1,6 +1,9 @@
 class Transfer
-  attr_accessor :transfer
+  attr_reader :transfer, :balance, :name
 
-  def initialize
+  def initialize(name, balance, transfer)
+    @name = name
+    @balance = balance
+    @transfer = transfer 
   end
 end
