@@ -2,5 +2,6 @@ class Transfer
   attr_reader :tranfer
 
   def initialize(tranfer)
-    @transfer = transfer 
+    @transfer = transfer
+  end 
 end
